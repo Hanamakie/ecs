@@ -1,0 +1,61 @@
+15-Dec-2019 13:49:52.114 警告 [main] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+15-Dec-2019 13:49:52.145 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+15-Dec-2019 13:49:52.145 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+15-Dec-2019 13:49:52.161 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+15-Dec-2019 13:49:52.161 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2008 R2
+15-Dec-2019 13:49:52.161 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+15-Dec-2019 13:49:52.161 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Dec-2019 13:49:52.161 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Tools\jdk1.8.0_181\jdk\jre
+15-Dec-2019 13:49:52.161 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+15-Dec-2019 13:49:52.161 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Dec-2019 13:49:52.161 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Tools\apache-tomcat-8.5.43
+15-Dec-2019 13:49:52.176 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Tools\apache-tomcat-8.5.43
+15-Dec-2019 13:49:52.176 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Tools\apache-tomcat-8.5.43\conf\logging.properties
+15-Dec-2019 13:49:52.176 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Dec-2019 13:49:52.176 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Dec-2019 13:49:52.176 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Dec-2019 13:49:52.176 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Dec-2019 13:49:52.176 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Tools\apache-tomcat-8.5.43
+15-Dec-2019 13:49:52.176 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Tools\apache-tomcat-8.5.43
+15-Dec-2019 13:49:52.192 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Tools\apache-tomcat-8.5.43\temp
+15-Dec-2019 13:49:52.192 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+15-Dec-2019 13:49:52.192 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+15-Dec-2019 13:49:52.192 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15-Dec-2019 13:49:52.208 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+15-Dec-2019 13:49:52.692 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Dec-2019 13:49:52.911 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2019 13:49:53.051 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2019 13:49:53.051 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Dec-2019 13:49:53.051 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1972 ms
+15-Dec-2019 13:49:53.114 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Dec-2019 13:49:53.114 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+15-Dec-2019 13:49:53.161 信息 [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Tools\apache-tomcat-8.5.43\webapps\ROOT] was found with a last modified time that did not match the associated WAR. It will be deleted.
+15-Dec-2019 13:50:03.192 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2019 13:50:06.083 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Tools\apache-tomcat-8.5.43\webapps\fly-0.0.1-SNAPSHOT.war]
+15-Dec-2019 13:50:06.098 信息 [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Tools\apache-tomcat-8.5.43\webapps\fly-0.0.1-SNAPSHOT] was found with a last modified time that did not match the associated WAR. It will be deleted.
+15-Dec-2019 13:50:11.505 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2019 13:50:13.895 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Tools\apache-tomcat-8.5.43\webapps\fly-0.0.1-SNAPSHOT.war] has finished in [7,812] ms
+15-Dec-2019 13:50:13.911 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Dec-2019 13:50:13.911 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Dec-2019 13:50:13.911 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 20863 ms
+15-Dec-2019 13:50:23.911 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+15-Dec-2019 13:50:23.942 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Dec-2019 13:50:23.942 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+15-Dec-2019 13:50:24.848 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2019 13:50:26.051 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+15-Dec-2019 17:08:18.895 信息 [http-nio-8080-exec-20] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:430)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:684)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
